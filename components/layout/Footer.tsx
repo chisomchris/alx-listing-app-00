@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Wrapper from "./Wrapper";
+import ALXLogo from "../common/Logo";
 
 const Footer: React.FC = () => {
   return (
@@ -8,8 +9,10 @@ const Footer: React.FC = () => {
       <Wrapper>
         <section className="flex flex-col gap-x-24 gap-y-8 pb-12 xl:flex-row">
           <div className="max-w-[745px] xl:max-w-[520px]">
-            <h1 className="text-white font-bold text-5xl pb-6">alx</h1>
-            <p className="max-[540px]:text-xs leading-5">
+            <Link href="/">
+              <ALXLogo size={64} className="text-white" />
+            </Link>
+            <p className="pt-4 leading-5 max-[540px]:text-xs">
               ALX is a platform where travelers can discover and book unique,
               comfortable, and affordable lodging options worldwide. From cozy
               city apartments and tranquil countryside retreats to exotic

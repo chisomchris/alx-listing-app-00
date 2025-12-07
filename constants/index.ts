@@ -1,3 +1,5 @@
+import { IconProps } from "../components/common/Icon";
+
 export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
   {
     name: "Villa Ocean Breeze",
@@ -359,4 +361,24 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     image: "https://example.com/image20.jpg",
     discount: "",
   },
+];
+
+export const ICONS: { name: IconProps["name"] }[] = [
+  { name: "Apartment" },
+  { name: "Barn" },
+  { name: "Cabin" },
+  { name: "CastleTower" },
+  { name: "Cottage" },
+  { name: "Farm" },
+  { name: "Home" },
+  { name: "Island" },
+  { name: "KeyChain" },
+  { name: "LivingRoom" },
+  { name: "Mansion" },
+  { name: "PalmTree" },
+  { name: "SwimmingPool" },
+  { name: "Tent" },
+  { name: "Treehouse" },
+  { name: "Vacations" },
+  { name: "Villa" },
 ];
