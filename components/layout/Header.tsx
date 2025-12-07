@@ -46,15 +46,9 @@ const Header: React.FC = () => {
           </div>
         </Wrapper>
       </div>
-      <div className="relative border-b border-b-[#FDFDFD] overflow-y-hidden">
-        <div className="bg-white flex flex-nowrap gap-6 pt-6 pb2 overflow-auto no-scrollbar pl-[calc(1/24*100%)] pr-[calc(1/12*100%)] md:gap-10 md:pr-[calc(1/18*100%)]">
-          <div className="absolute w-1/18 h-full top-0 left-0 md:w-1/24 bg-linear-to-r from-white to-transparent" />
-          <div
-            className="absolute w-1/12 h-full top-0 right-0 bg-linear-to-l from-white to-white/50 md:w-1/18"
-            style={{
-              boxShadow: "-5px 0px 10px 15px rgba(255,255,255,0.5)",
-            }}
-          />
+      <div className="border-b border-b-[#FDFDFD] grid grid-cols-[calc(calc(100vw-calc(11/12*100%))/2)_1fr_calc(calc(100vw-calc(11/12*100%))/2)]">
+        <div className="bg-linear-to-l from-transparent to-white " />
+        <Wrapper className="overflow-x-scroll no-scrollbar  p-0 m-0 flex gap-6 pt-6 pb2 md:gap-10">
           {ICONS.map((icon) => (
             <HeaderIcon
               description={icon.name}
@@ -62,7 +56,8 @@ const Header: React.FC = () => {
               key={icon.name}
             />
           ))}
-        </div>
+        </Wrapper>
+        <div className="bg-linear-to-r from-transparent to-white" />
       </div>
     </header>
   );

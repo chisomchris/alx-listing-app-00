@@ -1,4 +1,13 @@
 import { IconProps } from "../components/common/Icon";
+import heroSm from "../public/assets/images/hero.jpg";
+import heroMd from "../public/assets/images/hero-md.jpg";
+import heroLg from "../public/assets/images/hero-lg.png";
+
+export const heroImage = {
+  small: heroSm,
+  medium: heroMd,
+  large: heroLg,
+};
 
 export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
   {
@@ -16,7 +25,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "3",
       occupants: "4-6",
     },
-    image: "https://example.com/image1.jpg",
+    image: "https://picsum.photos/300/200?random=1",
     discount: "",
   },
   {
@@ -34,7 +43,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "2",
       occupants: "5-7",
     },
-    image: "https://example.com/image2.jpg",
+    image: "https://picsum.photos/300/200?random=2",
     discount: "30",
   },
   {
@@ -52,7 +61,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "1",
       occupants: "2-3",
     },
-    image: "https://example.com/image3.jpg",
+    image: "https://picsum.photos/300/200?random=3",
     discount: "",
   },
   {
@@ -70,7 +79,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "2",
       occupants: "2-4",
     },
-    image: "https://example.com/image4.jpg",
+    image: "https://picsum.photos/300/200?random=4",
     discount: "15",
   },
   {
@@ -88,7 +97,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "2",
       occupants: "4-6",
     },
-    image: "https://example.com/image5.jpg",
+    image: "https://picsum.photos/300/200?random=5",
     discount: "20",
   },
   {
@@ -106,7 +115,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "4",
       occupants: "8-10",
     },
-    image: "https://example.com/image6.jpg",
+    image: "https://picsum.photos/300/200?random=6",
     discount: "",
   },
   {
@@ -124,7 +133,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "3",
       occupants: "4-5",
     },
-    image: "https://example.com/image7.jpg",
+    image: "https://picsum.photos/300/200?random=7",
     discount: "10",
   },
   {
@@ -142,7 +151,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "3",
       occupants: "5-6",
     },
-    image: "https://example.com/image8.jpg",
+    image: "https://picsum.photos/300/200?random=8",
     discount: "25",
   },
   {
@@ -160,7 +169,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "1",
       occupants: "2-3",
     },
-    image: "https://example.com/image9.jpg",
+    image: "https://picsum.photos/300/200?random=9",
     discount: "",
   },
   {
@@ -178,7 +187,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "2",
       occupants: "5-7",
     },
-    image: "https://example.com/image10.jpg",
+    image: "https://picsum.photos/300/200?random=10",
     discount: "40",
   },
   {
@@ -196,7 +205,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "4",
       occupants: "6-8",
     },
-    image: "https://example.com/image11.jpg",
+    image: "https://picsum.photos/300/200?random=11",
     discount: "50",
   },
   {
@@ -214,7 +223,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "3",
       occupants: "4-6",
     },
-    image: "https://example.com/image12.jpg",
+    image: "https://picsum.photos/300/200?random=12",
     discount: "",
   },
   {
@@ -232,7 +241,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "2",
       occupants: "2-4",
     },
-    image: "https://example.com/image13.jpg",
+    image: "https://picsum.photos/300/200?random=13",
     discount: "35",
   },
   {
@@ -250,7 +259,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "1",
       occupants: "2",
     },
-    image: "https://example.com/image14.jpg",
+    image: "https://picsum.photos/300/200?random=14",
     discount: "",
   },
   {
@@ -268,7 +277,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "4",
       occupants: "6-8",
     },
-    image: "https://example.com/image15.jpg",
+    image: "https://picsum.photos/300/200?random=15",
     discount: "20",
   },
   {
@@ -286,7 +295,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "1",
       occupants: "2-4",
     },
-    image: "https://example.com/image16.jpg",
+    image: "https://picsum.photos/300/200?random=16",
     discount: "25",
   },
   {
@@ -304,7 +313,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "3",
       occupants: "6-8",
     },
-    image: "https://example.com/image17.jpg",
+    image: "https://picsum.photos/300/200?random=17",
     discount: "30",
   },
   {
@@ -322,7 +331,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "3",
       occupants: "4-5",
     },
-    image: "https://example.com/image18.jpg",
+    image: "https://picsum.photos/300/200?random=18",
     discount: "",
   },
   {
@@ -340,7 +349,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "5",
       occupants: "8-10",
     },
-    image: "https://example.com/image19.jpg",
+    image: "https://picsum.photos/300/200?random=19",
     discount: "60",
   },
   {
@@ -358,7 +367,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "3",
       occupants: "4-5",
     },
-    image: "https://example.com/image20.jpg",
+    image: "https://picsum.photos/300/200?random=20",
     discount: "",
   },
 ];

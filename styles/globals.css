@@ -26,7 +26,6 @@ body {
 }
 
 .no-scrollbar {
-  overflow-x: auto;
   scrollbar-width: none; /* Firefox */
 }
 

@@ -10,7 +10,7 @@ const quicksand = Quicksand({
 
 const Layout: React.FC<{ children: ReactElement }> = ({ children }) => {
   return (
-    <div className={quicksand.className}>
+    <div className={`bg-white ${quicksand.className}`}>
       <Header />
       <main className="min-h-screen">{children}</main>
       <Footer />
